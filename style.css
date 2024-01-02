@@ -1,9 +1,137 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap");
 body {
+
+    box-sizing: border-box;
+    background-color: #FFFFFF;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
+}
+header {
+    width: 100vw;
+    height: 75h;
+}
+.sectionheader1 {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 53px;
+}
+.div1header {
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+.fa-magnifying-glass {
+    font-size: 25px;
+    color: black;
+}
+header ul li a:hover {
+    color: rgb(211, 70, 70);
+    text-decoration: underline;
+}
+.fa-caret-down {
+    position: relative;
+    top: 15px;
+    right: 22px;
+    color: rgb(211, 70, 70);
+}
+.para1div1header {
+    font-weight: bolder;
+}
+.para2div1header {
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(211, 70, 70);
+    border-radius:20px ;
+    position: relative;
+    right: 23px;
+    bottom: 5px;
+}
+.div2header {
+    width: 60px;
+    height: 15px;
+    background-color: #000000;
+    border-radius:20px ;
+}
+.sectionheader2 {
+    width: 100vw;
+    height: 65vh;
+    background-image: url("img/26.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 37px;
+}
+.para1sectionheader2 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 37px;
+    width: 500px;
+}
+.para2sectionheader2 {
+    color: #FFFFFF;
+    width: 500px;
+}
+.para3sectionheader2 {
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(211, 70, 70);
+    border-radius:30px ;
+    text-align: center;
+    padding-top: 15px;
+}
+.div2header {
+    background-color: #FFFFFF;
+}
+.fa-circle {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.para1sectionheader2, .para2sectionheader2 , .para3sectionheader2 {
+    position: relative;
+    left: 270px;
+    top: 120px;
+}
+.rond1, .rond2 {
+    position: relative;
+    top: 250px;
+    left: 800px;
+}
+.div2header {
+    position: relative;
+    top: 235px;
+    left: 870px;
+}
+.rond2 {
+   margin-left: 13px;
+
 }
 
 a {
