@@ -295,13 +295,35 @@
 .referent-logo {
     padding-left: 10px;
     padding-right: 10px;
-    border: #ce0033 solid 1px;
     border-radius: 50%;
-    background: #ce0033;
     color: white;
     text-align: center;
     font-weight: bold;
     font-size: large;
+}
+.refdig {
+    background: #f7d917;
+    border: #f7d917 solid 1px;
+}
+.devweb {
+    background: #ce0033;
+    border: #ce0033 solid 1px;
+}
+.sas {
+ background: orangered;
+border: orangered solid 1px;   
+}
+.devmob {
+    background: #1f799a;
+    border: #1f799a solid 1px;
+}
+.chargeClient {
+    background: green;
+    border: green solid 1px;
+}
+
+.appel-p {
+    padding-left: 20px;
 }
 
 .div_conteneur_fabrique_mission {
