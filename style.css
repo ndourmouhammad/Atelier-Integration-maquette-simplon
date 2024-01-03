@@ -481,25 +481,29 @@ a {
 .footer1 p {
     color: #ffffff;
 }
-
-.grid4 .input {
-    color: gray;
-    padding: 12px;
+.news {
+  display: flex;
 }
 
-.grid4 .submit {
-    background: #ce0033;
+#new{
+    color: gray;
+    padding: 11px;
+}
+
+#new-submit {
+      background: #ce0033;
     color: white;
     padding: 12px;
-    margin-left: -55px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-left: -160px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 30%;
 }
+
 
 .footer2 {
     background: #ce0033;
-    margin-top: -25px;
-    padding: 5px;
+    margin-top: -20px;
     display: flex;
     justify-content: space-between;
 }
