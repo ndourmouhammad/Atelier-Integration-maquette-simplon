@@ -189,6 +189,7 @@ a {
   background: #ede1e4;
   display: flex;
   padding: 50px 120px;
+  margin-top: 15px;
 }
 
 .image-femme img {
@@ -201,7 +202,7 @@ a {
   padding-left: 100px;
 }
 
-.texte-femme h1 {
+.texte-femme h2 {
   text-transform: uppercase;
   color: #ce0033;
   font-weight: 900px;
@@ -219,14 +220,14 @@ a {
   padding: 10px 80px;
 }
 
-.nos-nouvelles h1 {
+.nos-nouvelles h2 {
   color: #ce0033;
   text-align: center;
   text-transform: capitalize;
   font-size: 50px;
 }
 
-.nos-nouvelles h2 {
+.nos-nouvelles h3 {
   color: #ce0033;
 }
 
@@ -324,8 +325,8 @@ a {
   margin: 10px 80px;
 }
 
-.equipe-pedagogique h1,
-.alumni h1 {
+.equipe-pedagogique h2,
+.alumni h2 {
   color: #ce0033;
   font-weight: bold;
   font-size: 52px;
@@ -423,7 +424,7 @@ a {
   margin: 10px 80px;
 }
 
-.histoire h1 {
+.histoire h2 {
   font-weight: bold;
   color: #ce0033;
   padding: 20px 20px 20px 0;

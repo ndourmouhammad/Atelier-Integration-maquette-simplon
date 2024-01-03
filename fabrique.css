@@ -4,7 +4,7 @@
     margin-bottom: 50px;
     text-align: center;
 }
-.valFabrique h1, .chiffres h1 {
+.valFabrique h2, .chiffres h2 {
     color: #ce0033;
     font-size: 52px;
     font-weight: bolder;
@@ -18,7 +18,7 @@
 .respect {
     width: 40%;
 }
-.respect h1 {
+.respect h2 {
     color: #ce0033;
     font-size: 40px;
     padding: 10px;
@@ -106,7 +106,7 @@
     margin-top: 40px;
 }
 
-.section5 h1 {
+.section5 h2 {
     text-align: center;
     font-size: 52px;
     font-weight: bolder;
@@ -192,7 +192,7 @@
     text-align: center;
 }
 
-.section5 h2 {
+.section5 h3 {
     color: #000000;
     font-size: 38px;
     font-weight: bolder;
@@ -201,7 +201,7 @@
     left: 40px;
 }
 
-.section5 h3 {
+.section5 h4 {
     color: rgb(197, 17, 53);
     font-size: 23px;
     font-weight: bolder;
@@ -230,7 +230,7 @@
     margin: 0 auto;
     text-align: center;
 }
-.fabrique h1 {
+.fabrique h2 {
     margin: 25px;
     color: #ce0033;
     font-size: 52px;
@@ -253,7 +253,7 @@
     margin: 0 auto;
 }
 
-.appel-candidature h1 {
+.appel-candidature h2 {
     margin: 50px;
     color: #ce0033;
     font-size: 52px;
@@ -287,13 +287,6 @@
     text-align: center;
     font-weight: bold;
     font-size: large;
-}
-
-
-
-
-body {
-    box-sizing: border-box;
 }
 
 .div_conteneur_fabrique_mission {
@@ -478,7 +471,7 @@ body {
     margin-right: 85px;
 }
 
-.section2 h1 {
+.section2 h2 {
     position: absolute;
     left: 37%;
     bottom: 100%;
