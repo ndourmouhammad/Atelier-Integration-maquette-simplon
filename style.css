@@ -21,6 +21,10 @@ header {
     align-items: center;
 
 }
+.logosimplon {
+    width: 115px;
+    height: 70px;
+}
 header ul {
     list-style: none;
     display: flex;
@@ -243,7 +247,7 @@ a {
 .lancement {
     padding: 25px;
 }
-.tiret hr {
+.lancement hr {
     display: inline-block;
     width: 50px;
 }
