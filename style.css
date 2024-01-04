@@ -224,7 +224,7 @@ a {
 }
 
 .nos-nouvelles {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -266,6 +266,14 @@ a {
   color: #ce0033;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
+}
+.icon-plus {
+  background: #ce0033;
+  border-radius: 50%;
+  padding-top: 15px;
+  margin-bottom: -35px;
+  cursor: pointer;
 }
 
 .border-plus {
@@ -332,6 +340,7 @@ a {
 .equipe-pedagogique {
   width: 90%;
   margin: 0 auto;
+  margin-top: -150px;
 }
 
 .equipe-pedagogique h2,
@@ -470,58 +479,7 @@ a {
   padding: 10px;
 }
 
-.footer1 {
-  background: #000000;
-  padding: 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
-.simplon img {
-  width: 225px;
-  padding: 25px;
-}
-
-.social a img {
-  width: 45px;
-  height: 45px;
-  padding: 15px;
-}
-
-.footer1 h1,
-.footer1 p {
-  color: #ffffff;
-}
-.news {
-  display: flex;
-}
-
-#new {
-  color: gray;
-  padding: 11px;
-}
-
-#new-submit {
-  background: #ce0033;
-  color: white;
-  padding: 12px;
-  margin-left: -160px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  width: 30%;
-}
-
-.footer2 {
-  background: #ce0033;
-  margin-top: -20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer2 p {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .divmain1 {
   width: 100vw;
@@ -729,6 +687,8 @@ a {
 .apprenants {
   position: relative;
   top: 95px;
+  margin-top: -115px;
+  
 }
 
 .sectionmain2 {
@@ -1001,6 +961,7 @@ footer {
   flex-direction: column;
   padding: 0px;
   margin-top: 50px;
+  font-style: normal;
 }
 
 .black-line {
@@ -1061,10 +1022,10 @@ footer {
   font-size: 14px;
   margin-bottom: 10px;
 }
-/* .newsletter-column form { */
-/* display: flex; */
-/* flex-direction: column; */
-/* } */
+.footer-column address {
+  font-style: normal;
+}
+
 .newsletter-column input[type="email"] {
   padding: 5px;
   margin-bottom: -5px;

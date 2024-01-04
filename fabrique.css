@@ -3,6 +3,7 @@
     margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
+    margin-top: -160px;
 }
 
 .valFabrique h2,
@@ -10,6 +11,7 @@
     color: #ce0033;
     font-size: 52px;
     font-weight: bolder;
+    
 }
 
 .flex-valFabrique {
@@ -266,10 +268,11 @@
 .appel-candidature {
     width: 80%;
     margin: 0 auto;
+    margin-top: -120px;
 }
 
 .appel-candidature h2 {
-    margin: 50px;
+    
     color: #ce0033;
     font-size: 52px;
     font-weight: bolder;
@@ -300,10 +303,13 @@
     text-align: center;
     font-weight: bold;
     font-size: large;
+    padding-top: 10px;
+  margin-bottom: -5px;
 }
 .refdig {
     background: #f7d917;
     border: #f7d917 solid 1px;
+    
 }
 .devweb {
     background: #ce0033;
@@ -390,6 +396,7 @@ border: orangered solid 1px;
     font-size: 53px;
     font-weight: bolder;
     color: rgb(197, 17, 53);
+    margin-top: 5px;
 }
 
 .span1 {
@@ -556,11 +563,13 @@ border: orangered solid 1px;
     left: 6%;
 }
 
-.conteneur2 h2 {
+.conteneur3 h2 {
+    margin-bottom: -150px; 
+    margin-left: -340px; 
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(197, 17, 53);
-
+    color: #ce0033;
+    
 }
 
 .div1conteneur3,
@@ -580,6 +589,7 @@ border: orangered solid 1px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 48px;
+    margin-top: 200px;
 }
 
 .p1conteneur3 {
