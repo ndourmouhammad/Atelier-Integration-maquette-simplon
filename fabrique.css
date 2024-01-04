@@ -918,11 +918,12 @@ input[type="submit"] {
     bottom: 220px;
 }
 
-.section6 button a {
+.section6 .post {
     color: #FFFFFF;
     font-size: 17px;
     font-weight: bolder;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .ligne2 {
