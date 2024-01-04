@@ -7,6 +7,7 @@ body {
   padding: 0;
   background-color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -223,7 +224,8 @@ a {
 }
 
 .nos-nouvelles {
-  padding: 10px 80px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .nos-nouvelles h2 {
@@ -328,7 +330,8 @@ a {
 }
 
 .equipe-pedagogique {
-  margin: 10px 80px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .equipe-pedagogique h2,
@@ -377,7 +380,8 @@ a {
 }
 
 .alumni {
-  margin: 20px 80px;
+  width: 90%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 70% 1fr;
 }
@@ -427,7 +431,8 @@ a {
 }
 
 .histoire {
-  margin: 10px 80px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .histoire h2 {
