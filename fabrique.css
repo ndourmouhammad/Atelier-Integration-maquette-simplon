@@ -265,8 +265,8 @@
     width: 75%;
 }
 
-.appel-candidature {
-    width: 80%;
+.div1_-candidature {
+    width: 75%;
     margin: 0 auto;
     margin-top: -120px;
 }
@@ -277,6 +277,7 @@
     font-size: 52px;
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .grid-candidature {
@@ -296,15 +297,17 @@
 }
 
 .referent-logo {
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    display: inline-block;
+    padding-top: 25px;
     border-radius: 50%;
     color: white;
     text-align: center;
     font-weight: bold;
-    font-size: large;
-    padding-top: 10px;
-  margin-bottom: -5px;
+    font-size: 30px;
+    width: 93px;
+    height: 80px;
+  
 }
 .refdig {
     background: #f7d917;
@@ -329,8 +332,13 @@ border: orangered solid 1px;
 }
 
 .appel-p {
-    padding-left: 20px;
+   margin-top: 25px;
+   padding-left: 50px;
+   font-size: 25px;
 }
+.gras-p {
+    font-size: 35px;
+ }
 
 .div_conteneur_fabrique_mission {
     width: 65vw;
