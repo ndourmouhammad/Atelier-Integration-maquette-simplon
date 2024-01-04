@@ -925,36 +925,7 @@ form {
   font-size: 17px;
   color: #acaaaa;
 }
-.partenaires {
-  margin: 50px;
-}
 
-.partenaires h2 {
-  text-align: center;
-  color: #ce0033;
-  font-size: 52px;
-}
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  margin-top: 25px;
-}
-
-.image {
-  text-align: center;
-  width: 100px;
-  height: 100px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  padding: 5px;
-}
 
 footer {
   display: flex;
