@@ -1127,5 +1127,15 @@ header ul li{
 .grid  p{
   margin-bottom: 40px;
 }
+.plus{
+  padding: 0%;
+  font-size: 15px;
+}
+.a-venir{
+  font-size: 1em;
+}
+..cohorte, .hackathon{
+  
+}
 }
 
