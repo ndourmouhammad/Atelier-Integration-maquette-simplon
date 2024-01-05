@@ -23,19 +23,21 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-
+/*logo*/
 .logosimplon {
   width: 115px;
   height: 70px;
 }
-
+/*ul*/
 header ul {
   list-style: none;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
-
+header ul li{
+  margin-right: 50px; 
+}
 header ul li a {
   text-decoration: none;
   color: black;
@@ -50,31 +52,19 @@ header ul li a {
   justify-content: space-between;
 }
 
-.fa-magnifying-glass {
-  font-size: 25px;
-  color: black;
-}
 
 header ul li a:hover {
   color: rgb(211, 70, 70);
   text-decoration: underline;
 }
 
-.fa-caret-down {
-  position: relative;
-  top: 15px;
-  right: 22px;
-  color: rgb(211, 70, 70);
-}
 
-.para1div1header {
-  font-weight: bolder;
-}
+/*main-image*/
 
 .para2div1header {
   font-weight: bolder;
   color: #ffffff;
-  text-align: center;
+ text-align: center;
   padding-top: 10px;
   width: 100px;
   height: 30px;
@@ -93,9 +83,9 @@ header ul li a:hover {
 }
 
 .sectionheader2 {
-  width: 100vw;
+ width: 100vw;
   height: 65vh;
-  background-image: url("img/26.png");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/26.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +104,7 @@ header ul li a:hover {
   font-weight: bolder;
   font-size: 67px;
   text-align: center;
-  position: relative;
+  /*position: relative;*/
   left: 60px;
   bottom: 22px;
   z-index: 3;
@@ -1031,5 +1021,111 @@ footer {
   width: 45px;
 }
 
+@media screen and (max-width:600px) {
+  /*hearder*/
+  .sectionheader1{
+    align-items: baseline;
+    margin-bottom: 20%;
+    line-height: 30px;
+    
+  }
+  
+  .sectionheader1 ul {
+   
+  }
+  .sectionheader1 img{
+    width: 100px;
+    height: auto;
+    padding-top: 15px;
+  }
+  .div1header{
+    padding-left: 50%;
+  }
+  .para2div1header{
+    font-size: 1em;
+    
+  }
 
+  /*main-image*/
+.sectionheader2{
+  height: 50%;
+}
+
+header ul li{
+  margin-right: 0px;
+}
+
+
+/*section 2*/
+.simplon-au-senegal{
+  display: block;
+  padding: 0%;
+}
+.simplon-au-senegal img{
+  width: cover
+}
+
+.para1sectionheader2,
+.para2sectionheader2,
+.para3sectionheader2 {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.para3sectionheader2{
+  width: auto;
+  height: 30px;
+  margin: 0 10%;
+}
+.para2sectionheader2, .para1sectionheader2{
+  width: auto;
+}
+.rond1, .rond2{
+  left: 50%;
+  top: 50%;
+  
+  font-size: 10px;
+}
+.para1sectionheader2{
+  font-size: 30pxpx;
+}
+.image-femme{
+  width: 100%;
+  margin-top: 30px;
+}
+.image-femme img{
+  width: 100%;
+  border-radius: 10px;
+  height: 30em;
+
+}
+.texte-femme h2{
+  font-size: 5vw;
+  text-align: center;
+  
+}
+.texte-femme p{
+  padding-right: 0%;
+  font-size:1em;
+  
+}
+/*partie grid*/
+.nos-nouvelles h2{
+  font-size: 1.5em;
+}
+.nos-nouvelles .grid{
+  display: block;
+  margin: auto;
+}
+.élément {
+  font-size: 10px;
+    margin-bottom: 10%;
+}
+.grid h3,p {
+  margin: 0px;
+}
+.grid  p{
+  margin-bottom: 40px;
+}
+}
 
