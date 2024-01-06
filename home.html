@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
@@ -21,16 +22,17 @@
                 <li><a href="#">Espaces</a></li>
                 <li><a href="#">Entités</a></li>
                 <li><i class="fa-solid fa-magnifying-glass"></i></li>
-            </ul>
-            <div class="div1header">
-                <p class="para1div1header">Fr</p>
-                <i class="fa-solid fa-caret-down"></i>
-                <p class="para2div1header">Contact</p>
-            </div>
+                <li><select id="choix" name="choix">
+                    <option value="lang">FR</option>
+                    <option value="lang">EN</option>
+                  </select>
+                </li>
+                <li class="para2div1header">Contact</p></li>
+            </ul>  
         </div>
         <div class="sectionheader2">
             <p class="para1sectionheader2">
-                Simplon, réseau de Fabriques numériques et inclusives
+                Simplon,<br>réseau de Fabriques numériques et inclusives
             </p>
             <p class="para2sectionheader2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -51,7 +53,7 @@
 
             <p>
                 Affichant un taux de chômage supérieur à 16%, l intégration des jeunes
-                et des femmes sur le marché du travail est un enjeu crucial au
+                et des femmes sur le marché du travail est un700px enjeu crucial au
                 Sénégal. Pour le gouvernement, et avec le plan Sénégal 2025”, l
                 inclusion numérique est devenue une priorité, visant à doter le pays
                 d'infrastructures numériques modernes et de faciliter la création de
@@ -67,6 +69,7 @@
         <h3>Actualités</h3>
         <div class="grid">
             <div class="image1">
+                <div class="f-bande"><span class="f-bandeh3" >25</span><br><span class="sep">sep</span></div>
                 <img src="img/34.png" alt="Entretien" />
                 <h3>Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h3>
                 <p>
@@ -79,6 +82,7 @@
                 </p>
             </div>
             <div class="image2">
+                <div class="f-bande"><span class="f-bandeh3" >30</span class="sep"><br><span class="sep">sep</span></div>
                 <img src="img/39.png" alt="Entretien" />
                 <h3>Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h3>
                 <p>
@@ -91,6 +95,7 @@
                 </p>
             </div>
             <div class="image3">
+                <div class="f-bande"><span class="f-bandeh3" >22</span><br><span class="sep">sep</span></div>
                 <img src="img/5.png" alt="Entretien de selection" />
                 <h3>Entretien de selection lorem ipsum</h3>
                 <p>
@@ -103,6 +108,7 @@
                 </p>
             </div>
             <div class="image4">
+                <div class="f-bande"><span class="f-bandeh3" >12</span><br><span class="sep">sep</span></div>
                 <img src="img/33.png" alt="jour de fete" />
                 <h3>Jour de fête lorem ipsum arata fopiom doumer</h3>
                 <p>
@@ -128,7 +134,7 @@
                     Lancement d'une nouvelle cohorte developpement web
                 </div>
                 <div class="fleche">
-                    <img src="img/fleche" alt="fleche" />
+                    <iconify-icon icon="tabler:direction-sign-filled" style="color: white;" width="40"></iconify-icon>
                 </div>
             </div>
             <div class="hackathon">
@@ -141,14 +147,29 @@
                     <hr /> <br />
                     Hackathon lorem et ipsum
                 </div>
+
+
                 <div class="fleche">
-                    <img src="img/fleche" alt="fleche" />
+                    <iconify-icon icon="tabler:direction-sign-filled" style="color: white;" width="40"></iconify-icon>
                 </div>
+
+                
             </div>
         </div>
         <h2 class="dec">Decouverte</h2>
-    </section>
 
+        <select id="menu-berger" name="choix">
+            <option value="lang">Accueil</option>
+            <option value="lang">Fabriques</option>
+            <option value="lang">Formation</option>
+            <option value="lang">Espaces</option>
+            <option value="lang">Entités</option>
+            <option value="lang">search</option>
+            <option value="lang">langue</option>
+            <option value="lang">contact</option>
+          </select>
+
+    </section>
     <div class="divmain1">
         <p class="para1divmain1">Découvertes</p>
         <p class="para2divmain1">Simplon.co est un réseau de Fabriques solidaires et inclusives qui proposent des
