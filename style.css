@@ -84,25 +84,43 @@ header ul li a:hover {
 
 .sectionheader2 {
  width: 100vw;
-  height: 65vh;
+  height: 75vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/26.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-weight: bold;
 }
 
 .para1sectionheader2 {
   color: #ffffff;
   font-weight: bolder;
-  font-size: 37px;
-  width: 500px;
+  font-size: 50px;
+  width: 700px;
 }
+
+.f-bande{
+  background-color: #ce0033;
+  width: 30px;
+  height: 65px;
+  margin-left: 100px;
+  border-radius: 0 0 20px 20px;
+  color: white;
+}
+.f-bande h3{
+  font-size: 25px;
+  margin: 0%;
+  font-weight: bold;
+  color: white;
+
+}
+
 
 .para11sectionheader2 {
   color: #ffffff;
   font-weight: bolder;
-  font-size: 67px;
+  font-size: 80px;
   text-align: center;
   /*position: relative;*/
   left: 60px;
@@ -148,7 +166,7 @@ header ul li a:hover {
 .para3sectionheader2 {
   position: relative;
   left: 270px;
-  top: 120px;
+  top: 100px;
 }
 
 .rond1,
@@ -313,7 +331,7 @@ a {
 .fleche {
   padding: 100px;
 }
-
+/*à supprimé*/
 .fleche img {
   width: 30px;
   border: white solid 1px;
@@ -1020,6 +1038,15 @@ footer {
 .social-column ul li img {
   width: 45px;
 }
+#choix{
+  background-color: white;
+  border: white solid;
+  font-weight: bold;
+}
+
+
+
+
 
 @media screen and (max-width:600px) {
   /*hearder*/
@@ -1133,9 +1160,27 @@ header ul li{
 }
 .a-venir{
   font-size: 1em;
+  padding: 5px
 }
-..cohorte, .hackathon{
-  
+.cohorte, .hackathon{
+  height: auto;
+  width: 48%;
+}
+.lancement{ 
+  padding: 0%;
+}
+.date{
+  padding: 0%;
+}
+.fleche{
+  padding: 20px;
+}
+.lancement hr {
+  color: white;
+}
+.dec{
+  float: left;
+  font-size: 20px;
 }
 }
 
