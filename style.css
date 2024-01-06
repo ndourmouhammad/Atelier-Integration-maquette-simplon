@@ -103,19 +103,25 @@ header ul li a:hover {
 .f-bande{
   background-color: #ce0033;
   width: 30px;
-  height: 65px;
+  height: 55px;
   margin-left: 100px;
   border-radius: 0 0 20px 20px;
   color: white;
+  position: relative;
+  left: 200px;
+  top: 9%;
 }
-.f-bande h3{
+.f-bandeh3{
   font-size: 25px;
   margin: 0%;
   font-weight: bold;
   color: white;
 
 }
-
+.sep{
+  font-size: 10px;
+  padding-left: 6px;
+}
 
 .para11sectionheader2 {
   color: #ffffff;
@@ -331,13 +337,6 @@ a {
 .fleche {
   padding: 100px;
 }
-/*à supprimé*/
-.fleche img {
-  width: 30px;
-  border: white solid 1px;
-  background: white;
-}
-
 .dec {
   float: right;
   text-transform: uppercase;
@@ -1044,21 +1043,35 @@ footer {
   font-weight: bold;
 }
 
-
+#menu-berger{
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+}
 
 
 
 @media screen and (max-width:600px) {
   /*hearder*/
+
+  #menu-berger{
+    opacity: 1;
+    position: absolute;
+    top: 2%;
+    right:  5%;
+    color: white;
+    background-color: #ce0033;
+  }
   .sectionheader1{
     align-items: baseline;
     margin-bottom: 20%;
     line-height: 30px;
-    
+    height: 100px;
+    display: block;
   }
   
   .sectionheader1 ul {
-   
+   opacity: 0;
   }
   .sectionheader1 img{
     width: 100px;
@@ -1182,5 +1195,7 @@ header ul li{
   float: left;
   font-size: 20px;
 }
+
+
 }
 
