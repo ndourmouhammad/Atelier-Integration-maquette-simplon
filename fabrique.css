@@ -1,3 +1,138 @@
+
+body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
+  }
+  
+/*bande*/
+.bande{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    gap: 50px;
+    background-color: rgba(206, 0, 51, 0.7);
+    position: absolute;
+    top: 90%;
+    color: white;
+    left: 25%;
+}
+.trait-vertical {
+    width: 3px; 
+    height: 80%; 
+    background-color: white; 
+    margin: auto;
+}
+.card{
+    width: 50%;
+    padding: 20px;
+}
+.card h1{
+    font-size: 40px;
+}
+
+.h1_lapetitehistoire{
+    position: relative;
+    top: 800px;
+}
+
+
+.div_couleur_rose_fabrique_mission{
+    top: 40%;
+}
+
+
+  .sectionheader2 {
+    width: 100%;
+     height: 800px;
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/26.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     font-weight: bold;
+     margin-bottom: 60%;
+   }
+  
+  header {
+    width: 100vw;
+    height: 75h;
+  }
+  
+  .sectionheader1 {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /*logo*/
+  .logosimplon {
+    width: 115px;
+    height: 70px;
+  }
+  /*ul*/
+  header ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  header ul li{
+    margin-right: 50px; 
+  }
+  header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 53px;
+  }
+  
+  .div1header {
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  
+  header ul li a:hover {
+    color: rgb(211, 70, 70);
+    text-decoration: underline;
+  }
+  
+  
+  /*main-image*/
+  
+  .para2div1header {
+    font-weight: bolder;
+    color: #ffffff;
+   text-align: center;
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(211, 70, 70);
+    border-radius: 20px;
+    position: relative;
+    right: 23px;
+    bottom: 5px;
+  }
+  
+  .div2header {
+    width: 60px;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 20px;
+  }
+
+
+
 .valFabrique {
     width: 80%;
     margin: 0 auto;
@@ -5,12 +140,26 @@
     text-align: center;
     margin-top: -160px;
 }
-
+.para11sectionheader2{
+   background-color: rgba(0, 0, 0, .4);
+    width: 30%;
+    height: 20%;
+   position: relative;
+   left: 35%;
+   top: 30%;
+    
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    
+}
 .valFabrique h2,
 .chiffres h2 {
     color: #ce0033;
     font-size: 52px;
     font-weight: bolder;
+
     
 }
 
@@ -116,7 +265,7 @@
 .section5 {
     width: 80%;
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
     position: relative;
     margin-top: 40px;
 }
@@ -415,7 +564,7 @@ border: orangered solid 1px;
 .h1_lapetitehistoire {
     position: absolute;
     left: 37%;
-    top: 900px;
+    top: 115%;
     font-size: 53px;
     font-weight: bolder;
     color: rgb(197, 17, 53);
@@ -1095,4 +1244,59 @@ img {
 }
 .sous_div2_conteneur_fabrique_mission hr {
     color: white;
+}
+
+
+#menu-berger{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+  }
+
+/*responsive*/
+
+@media screen and (max-width:600px) {
+    .bande{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        
+        gap: 50px;
+        background-color: rgba(206, 0, 51, 0.7);
+        position: absolute;
+        top: 33%;
+        color: white;
+        left: 0%;
+    }
+/*hearder*/
+.sectionheader2 {
+    width: 100%;
+     height: 700px;
+    
+    }
+#menu-berger{
+    opacity: 1;
+    position: absolute;
+    top: 2%;
+    right:  5%;
+    color: white;
+    background-color: #ce0033;
+  }
+.para11sectionheader2{
+    font-size: 2Opx;
+    top: 0%;
+    left: 2%;
+    width: 100%;
+}
+.sectionheader1 ul {
+    opacity: 0;
+   }
+   .div_couleur_rose_fabrique_mission{
+    left: 10%;
+    width: 80%;
+   }
+   .div_conteneur_fabrique_mission{
+    left: 10%;
+    width: 80%;
+   }
 }
