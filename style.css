@@ -247,7 +247,7 @@ justify-content: center;
   /*la baniere de découverte */
   .divmain1 {
     width: 40rem;
-    height: 40vh;
+    height: 23vh;
    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(img/35.png);
     background-position: center;
     background-repeat:no-repeat ;
@@ -315,26 +315,28 @@ font-size: 1.5rem;
 @media only screen and (max-width: 480px){
 /*la baniere de découverte */
 .divmain1 {
- width: 23.5rem;
-  height: 25vh;
+ width: auto;
+  height: auto;
 }
 .para1divmain1 {
   color: #ffffff;
-  font-size: 4rem;    
+  font-size: 3rem;    
+  margin-left: -2rem;
 }
 
 .para2divmain1{
-  font-size: 0.8rem;
-  margin-top: -3.5rem;
+  font-size: 1.3rem;
+  margin-top: -3.8rem;
+  margin-left: -1rem;
 }
 /*fin de la baniére*/
 /*debut de la partie decouvertes sur les chiffres*/ 
 
 .cont-decouvert{
   display: grid;
-width: 20rem;
+width: 12rem;
   background-color: #ce0033;
-  margin:0 20%;
+  margin:0 auto;
   
   
 position: relative;
@@ -353,42 +355,55 @@ position: relative;
 }
 /*fin de la partie  découverte des chiffres */
 .cont-formateur{
- margin-left: 11rem;
   display: flex;
   flex-wrap: wrap;
   margin: 1rem;
 }
-/*partie formateur
-.cont-formateur{
- margin-left: 20rem;
-  display: flex;
-  flex-wrap: wrap;
+
+.block-formateur{
+ width: 12rem;
+  box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.121);
+  border-radius: 1rem;
+
 }
-*/
+.photo-formateur{
+    width: 7rem; 
+    height:10rem ;
+}
+.btn-format{
+  margin: 0;
+}
+
 
 /*partie apprenant*/
 .photo-apprenant1{
-  width: 28rem;
+  width: 20rem;
   
+}
+.block1-apprenants{
+  width: auto;
 }
 .time-apprenants{
   margin-left: 20rem;
 }
 .para3_divmain6{
-  height: 8rem;
-  width: 28rem;
+  height: auto;
+  width: 18rem;
+  padding: 1rem;
 }
+
 .cont-all-element-formateur{
-  width: 10rem;
+  width: auto;
   height: 27.5rem;
  
 }
 .para_divmain5{
-  width: 25rem;
-  height: 25rem;
-  padding: 0.5rem;
-  margin-left: -1rem;
+  width: 15rem;
+  height: 30rem;
+
+  
 }
-
-
+.time-apprenants{
+margin-left: 13rem;
+}
 }

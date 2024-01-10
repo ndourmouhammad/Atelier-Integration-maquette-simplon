@@ -15,7 +15,7 @@
 .flex-valFabrique {
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .respect {
@@ -87,18 +87,17 @@
 }
 
 .chiffres {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 50px;
     text-align: center;
 }
 
+
 .flex-chiffre {
     display: flex;
-    justify-content: space-between;
+
+    justify-content: space-around;
     border: #ce0033 solid 1px;
     background: #ce0033;
-    padding: 25px 20px;
+  
 }
 
 .gris-chiffre {
@@ -132,20 +131,19 @@
     font-size: 25px;
     font-weight: bolder;
     color: #000000;
-    padding: 0px 195px 0px 195px;
+  
 }
 
 .conteneur8 {
-    width: 100%;
-    height: 100vh;
+   
     display: flex;
-    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
 }
 
 .divconteneur8 {
-    width: 28%;
+    
+   margin: 1rem;
     height: 70%;
     border-radius: 25px;
     box-shadow: 1px 1px 9px darkgrey;
@@ -212,7 +210,7 @@
     font-weight: bolder;
     position: relative;
     top: 40px;
-    left: 40px;
+    left: 30px;
 }
 
 .section5 h4 {
@@ -277,11 +275,10 @@ background-color: rgb(249, 246, 244);
     color: #ce0033;
 }
 .img-voyage-fabrique{
-    width: 30rem;
-   
+    width: 27rem;
 }
 .block-voyage-fabrique{
-    width: 50%;
+    width: auto;
     padding: 2rem;
     align-items: center;
     text-align: center;
@@ -295,26 +292,48 @@ background-color: rgb(249, 246, 244);
     display: flex;
     flex-wrap: wrap;
 }
+
 .conteneur8{
     display: flex;
     flex-wrap: wrap;
 }
 .divconteneur8 {
-    width: 50%;
+    width: auto;
     margin: 1rem;
     height: 90%;
 }
-
+.respect h2{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.respect a {
+   
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+  margin:0 6rem ;
+}
+.flex-chiffre {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
 
 .grid-fab {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;  
+     
 }
-.fabrique{
-margin-top: 80rem;
+.fab1 img {
+    width: 100%;
 }
 .voyage-fabrique{
+    width: auto;
     flex-wrap: wrap;
+}
+.img-voyage-fabrique{
+    width: 20rem;
 }
 /*fin de la media screen pour tablette*/
 
