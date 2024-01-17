@@ -11,17 +11,20 @@ body {
 }
 
 header {
-  width: 100vw;
-  height: 75h;
+  width: 100%;
+  height: 75vh;
+  
 }
 
 .sectionheader1 {
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
 }
 
 .logosimplon {
@@ -83,6 +86,7 @@ header ul li a:hover {
   position: relative;
   right: 23px;
   bottom: 5px;
+  left: 1rem;
 }
 
 .div2header {
@@ -93,7 +97,7 @@ header ul li a:hover {
 }
 
 .sectionheader2 {
-  width: 100vw;
+  width: 100%;
   height: 65vh;
   background-image: url("img/26.png");
   background-position: center;
@@ -164,16 +168,16 @@ header ul li a:hover {
 .rond1,
 .rond2 {
   position: relative;
-  top: 250px;
-  left: 800px;
+  top: 130px;
+  left: 600px;
   color: #ffffff;
   font-size: 15px;
 }
 
 .div2header {
   position: relative;
-  top: 235px;
-  left: 870px;
+  top: 110px;
+  left: 670px;
 }
 
 .rond2 {
@@ -189,20 +193,21 @@ a {
   margin: 0 auto;
   background: #ede1e4;
   display: flex;
-  padding: 50px 120px;
-  margin-top: 15px;
-}
+  gap: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-left: 5rem;
+  padding-right: 10rem;
 
-.image-femme {
-  width: 40%;
 }
 
 .texte-femme {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .image-femme img {
-  width: 60%;
+  width: 30rem;
   
   border-radius: 30px;
 }
@@ -219,8 +224,8 @@ a {
 
 .texte-femme p {
   text-align: justify;
-  padding-right: 350px;
-  font-size: 30px;
+  padding: 2rem;
+  font-size: 25px;
 }
 
 .nos-nouvelles {
@@ -288,17 +293,19 @@ a {
   padding: 10px 80px;
   color: #ce0033;
   font-size: 30px;
+  
 }
 
 .grid-events {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .cohorte,
 .hackathon {
   background: #ce0033;
-  width: 800px;
+  width: 520px;
   height: 200px;
   border-radius: 15px;
   color: white;
@@ -406,7 +413,7 @@ a {
   width: 72%;
   background-repeat: no-repeat;
   border-radius: 5px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .texte p {
@@ -499,7 +506,7 @@ a {
   font-weight: bolder;
   position: relative;
   left: 160px;
-  top: 175px;
+  top: 35px;
 }
 
 .para2divmain1 {
@@ -508,7 +515,7 @@ a {
   font-weight: bolder;
   position: relative;
   left: 160px;
-  top: 85px;
+  top: 25px;
   width: 670px;
   line-height: 29px;
 }
@@ -568,7 +575,7 @@ a {
   font-size: 50px;
   font-weight: bolder;
   position: relative;
-  left: 150px;
+  left: 100px;
   bottom: 50px;
 }
 
@@ -582,12 +589,16 @@ a {
 }
 
 .sectionmain1 {
-  width: 100vw;
+  width: 75%;
   height: 50vh;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  position: relative;
+  right: 5rem;
+  margin-bottom: 4rem;
 }
 
 .div1_divmain3 {
@@ -697,13 +708,15 @@ a {
   display: flex;
   position: relative;
   top: 10px;
+  gap: 2rem;
+  margin-left: 3rem;
 }
 
 .divmain5 {
   width: 40vw;
   height: 45vh;
   background-color: #e6e0e0;
-  padding: 0px 25px 0px 25px;
+  padding: 5px;
 }
 
 .papa {
@@ -711,8 +724,13 @@ a {
   height: 45vh;
   padding: 0px 25px 0px 25px;
   position: relative;
-  left: 120px;
+  left: -100px;
   bottom: 65px;
+}
+.commu {
+  
+  position: relative;
+  left: -5rem;
 }
 
 .fatou {
@@ -725,7 +743,8 @@ a {
   font-size: 19px;
   position: relative;
   top: 110px;
-  padding: 0px 165px 0px 165px;
+  
+  
 }
 
 .div1_divmain6 {
@@ -749,10 +768,12 @@ a {
 }
 
 .divmain6 {
-  width: 40vw;
-  height: 65vh;
+  width: 60vw;
+  height: 55vh;
   position: relative;
   bottom: 110px;
+  
+
 }
 
 .div2_divmain6 {
@@ -780,6 +801,7 @@ a {
   background-color: #ce0033;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  
 }
 
 .maman {
@@ -801,8 +823,8 @@ a {
   color: #ffffff;
   font-weight: bolder;
   position: relative;
-  top: 220px;
-  left: 575px;
+  top: 180px;
+  left: 365px;
   text-align: center;
   padding-top: 10px;
   width: 140px;
@@ -816,12 +838,12 @@ a {
   font-weight: bolder;
   position: relative;
   right: 90px;
-  padding: 0px 195px 0px 195px;
+  margin-left: 6rem;
 }
 
 .hdc {
   position: relative;
-  left: 900px;
+  left: 550px;
 }
 
 form {
@@ -882,6 +904,7 @@ input[type="submit"] {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 15rem;
 }
 
 .nouveau {
@@ -958,6 +981,10 @@ footer {
 .social-column a {
   text-decoration: none;
   color: white;
+}
+.social-column .simplon img {
+ 
+  width: 70%;
 }
 .social-column h4 {
   font-size: 16px;
